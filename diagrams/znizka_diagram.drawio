@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="9Oy4JaLkTa3wE1GcNKaK">
-    <mxGraphModel>
+    <mxGraphModel dx="681" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAwbdzn5HJTG5jM_nAKo-7" target="LAwbdzn5HJTG5jM_nAKo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAwbdzn5HJTG5jM_nAKo-8" target="LAwbdzn5HJTG5jM_nAKo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-25" value="Kolejny dzień" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAwbdzn5HJTG5jM_nAKo-24">
+          <mxGeometry x="0.0267" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-8" value="&lt;div&gt;zniżka = 2%&lt;/div&gt;&lt;div&gt;dzień = 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAwbdzn5HJTG5jM_nAKo-10" target="LAwbdzn5HJTG5jM_nAKo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-30" value="Kolejny dzień" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAwbdzn5HJTG5jM_nAKo-29">
+          <mxGeometry x="-0.3119" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-10" value="&lt;div&gt;zniżka = zniżka + 2 punkty procentowe&lt;/div&gt;&lt;div&gt;dzień = dzień + 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="510" as="sourcePoint" />
+            <mxPoint x="150" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="510" />
+              <mxPoint x="130" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-32" value="&lt;div&gt;Nie&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAwbdzn5HJTG5jM_nAKo-31">
+          <mxGeometry x="-0.3675" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-26" value="&lt;div&gt;Czy&lt;/div&gt;&lt;div&gt;dzień &amp;gt; 30?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAwbdzn5HJTG5jM_nAKo-33" target="LAwbdzn5HJTG5jM_nAKo-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="570" />
+              <mxPoint x="280" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-33" value="zniżka = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LAwbdzn5HJTG5jM_nAKo-26" target="LAwbdzn5HJTG5jM_nAKo-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-37" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAwbdzn5HJTG5jM_nAKo-34">
+          <mxGeometry x="-0.3372" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-35" value="Koniec" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
