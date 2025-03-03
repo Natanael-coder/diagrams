@@ -50,8 +50,10 @@
         <mxCell id="LAwbdzn5HJTG5jM_nAKo-26" value="&lt;div&gt;Czy&lt;/div&gt;&lt;div&gt;dzień &amp;gt; 30?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="470" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LAwbdzn5HJTG5jM_nAKo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAwbdzn5HJTG5jM_nAKo-33" target="LAwbdzn5HJTG5jM_nAKo-35">
+        <mxCell id="LAwbdzn5HJTG5jM_nAKo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="540" as="sourcePoint" />
+            <mxPoint x="280" y="599.9999999999999" as="targetPoint" />
             <Array as="points">
               <mxPoint x="440" y="570" />
               <mxPoint x="280" y="570" />
